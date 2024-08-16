@@ -1,0 +1,85 @@
+:root {
+    --primary-red: #9D2449;
+}
+  
+#app {
+   // top: -1px;
+    position: relative;
+}
+
+hr.red {
+    margin-bottom: 2rem;
+}
+
+.app-validation {
+    font-weight: bold;
+    color: red !important;
+}
+
+.app-pointer {
+    cursor: pointer;
+    user-select: none;
+}
+
+img { user-select: none; pointer-events: none;}
+
+.app-options-bar {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    .button-component {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .search-component {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+}
+
+//utils
+.pointer{
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .search-component {
+        justify-content: center !important;
+    }
+    .view-name {
+        margin-top: 10rem;
+    }
+    .app-options-bar {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: block;
+
+        .button-component {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .search-component {
+            margin-top: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+        }
+    }
+}
+
+.view-enter-active {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.view-enter-to {
+    opacity: 1;
+}
+
+.view-enter-from {
+    opacity: 0;
+}

@@ -1,0 +1,32 @@
+export const YEARS = [
+    { value: 2010},
+    { value: 2011},
+    { value: 2012},
+    { value: 2013},
+    { value: 2014},
+    { value: 2015},
+    { value: 2016},
+    { value: 2017},
+    { value: 2018},
+    { value: 2019},
+    { value: 2020},
+    { value: 2021},
+    { value: 2022},
+    { value: 2023},
+    { value: 2024},
+]
+
+export const MONTHS = [
+    { id: 1, descripcion: 'Enero', descripcion_corta: 'Ene'},
+    { id: 2, descripcion: 'Febrero', descripcion_corta: 'Feb'},
+    { id: 3, descripcion: 'Marzo', descripcion_corta: 'Mar'},
+    { id: 4, descripcion: 'Abril', descripcion_corta: 'Abr'},
+    { id: 5, descripcion: 'Mayo', descripcion_corta: 'May'},
+    { id: 6, descripcion: 'Junio', descripcion_corta: 'Jun'},
+    { id: 7, descripcion: 'Julio', descripcion_corta: 'Jul'},
+    { id: 8, descripcion: 'Agosto', descripcion_corta: 'Ago'},
+    { id: 9, descripcion: 'Septiembre', descripcion_corta: 'Sep'},
+    { id: 10, descripcion: 'Octubre', descripcion_corta: 'Oct'},
+    { id: 11, descripcion: 'Noviembre', descripcion_corta: 'Nov'},
+    { id: 12, descripcion: 'Diciembre', descripcion_corta: 'Dic'},
+]
